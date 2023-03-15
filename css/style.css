@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+}
+
+/*****************************HEADER**********************************************************/
+
+header a {
+    color: gray;
+    margin-left: 20px;
+}
+
+header a:hover {
+    color: black;
+}
+
+header a:visited {
+    color: gray;
+}
+
+/*****************************HERO SECTION**********************************************************/
+
+#hero-section {
+    background-image: url(../imgs/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+}
+
+#hero-section p {
+    display: inline-block;
+    background-color: rgb(101, 191, 134);
+    margin-top: 50px;
+}
+
+/*****************************FOOTER**********************************************************/
+
+footer {
+    background-color: rgb(29, 28, 28);
+    text-align: center;
+}
